@@ -9,6 +9,7 @@ local function miner(n)
 end
 
 local function retour(n)
+   print(n)
    robot.turnLeft()
    robot.turnLeft()
    for i=0,n-1 do
