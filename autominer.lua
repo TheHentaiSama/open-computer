@@ -26,6 +26,7 @@ for i=0,nombre-1 do
    robot.turnRight()
    robot.forward()
    robot.forward()
+   robot.forward()
    robot.turnRight()
    robot.turnRight()
 end
