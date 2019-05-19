@@ -23,8 +23,11 @@ for i=0,nombre-1 do
    miner(profondeur)
    retour(profondeur)
    robot.turnRight()
+   robot.swing()
    robot.forward()
+   robot.swing()
    robot.forward()
+   robot.swing()
    robot.forward()
    robot.turnRight()
 end
