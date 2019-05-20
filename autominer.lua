@@ -9,10 +9,13 @@ local function miner(n)
 end
 
 local function retour(n)
+   robot.turnLeft()
+   robot.turnLeft()
+   print("n =")
    print(n)
-   robot.turnLeft()
-   robot.turnLeft()
    for i=0,n-1 do
+      print("i =")
+      print(i)
       robot.forward()
    end
 end
